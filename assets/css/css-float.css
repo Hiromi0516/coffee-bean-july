@@ -1,0 +1,72 @@
+.float-left{
+    float:left;
+}
+.float-right{
+    float:right;
+}
+.float-none{
+    float:none;
+}
+.clear-left{
+    clear:left;
+}
+.clear-right{
+    clear:right;
+}
+.clear-both{
+    clear:both;
+}
+.clear-none{
+    clear:none;
+}
+
+.position-static{
+    position: static;
+    left: 150px;
+}
+
+.position-relative{
+    position: relative;
+    left:150px;
+}
+.red-box{
+    height:100px;
+    width:100px;
+    border:2px solid red;
+    /* position: relative; */
+    left:20px;
+}
+.parent{
+    height:150px;
+    width:250px;
+    border:2px solid green;
+    position: relative;
+}
+.child{
+    height:50px;
+    width: 50px;
+    background-color:blue;
+    position:absolute;
+    left:50%;
+    bottom: 0%;
+}
+.fixed{
+    width:200px;
+    height:200px;
+    background-color: tomato;
+    position:fixed;
+    
+    bottom:200px;
+    right:50%;
+    z-index:100;
+}  
+
+.fixed-2{
+    width:200px;
+    height:200px;
+    background-color: turquoise;
+    position:fixed;
+    left:40%;
+    bottom:150px;
+    z-index:101;
+}

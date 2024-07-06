@@ -1,0 +1,28 @@
+/*Universal selector*/
+
+*{
+    color: pink;
+}
+
+
+
+/* h2{ 
+    color: green;
+}*/
+
+.blueviolet-font{
+   color: blueviolet;
+
+}
+.red-font{
+    color: red;
+}
+
+#font-size-big{
+    font-size:30px;
+}
+#font-size-small{
+    font-size: 10px;
+}
+
+

@@ -1,0 +1,103 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.one-value-margin{
+    margin:20px;
+    border:2px solid black;
+}
+
+.two-value-margin{
+    margin:10px 20px;
+    border:2px solid black;
+}
+
+.three-value-margin{
+    margin: 10px 20px 30px;
+    border: 2px solid black;
+}
+
+.four-value-margin{
+    margin: 20px 40px 60px 80px ;
+    border: 2px solid black;
+}
+
+.indivisual-margin{
+    margin-top:20px ;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    border: 2px solid black;
+}
+
+
+/* padding */
+
+.one-value-padding{
+    padding: 10px;
+    border: 2px solid black;
+}
+
+
+.two-value-padding{
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+.three-value-padding{
+    padding: 10px 20px 30px;
+    border:2px solid black;
+}
+.four-value-padding{
+    padding: 20px 40px 60px 80px;
+    border: 2px solid black;
+}
+.indivisual-padding{
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    border: 2px solid black;
+}
+
+/* border */
+.border{
+    /* border: 1px solid darkcyam; */
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+}
+
+.b-box-1{
+    width: 300px;
+    height: 200px;
+    background: wheat;
+
+    border: 10px solid red;
+   /* border:5px dashed black; */
+   /* border: 5px dotted black; */
+
+}
+.b-box-2{
+    width: 200px;
+    height: 200px;
+    background: gold;
+    padding: 10px;
+}
+
+/* center a box */
+.b-box-3{
+    width: 100%;
+    padding: 10px;
+    background: wheat;
+}
+
+.center-box{
+    width: 300px;
+    background: red;
+    margin: auto;
+    text-align: center;
+}
+

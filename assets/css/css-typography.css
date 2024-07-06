@@ -1,0 +1,50 @@
+h1{ 
+    /* color name, english name*/
+    color: red;
+    font-family: serif;
+}
+h2{
+    /* Red, Gtrrn, Blue*/
+    color:rgb(0, 0, 255);
+    font-family: sans-serif;
+}
+
+h3{ /*Red, Green, Blue,Alpha Channel(opacity)*/
+    color: rgba(128,0,0,0.5);
+    font-family: monospace;
+}
+h4{   /*hexadecimal*/
+    color: #DAA520;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#first-paragraph{
+    font-size:32px;
+    font-weight:700;
+    font-style:normal;
+    text-transform:uppercase;
+    text-decoration: overline;
+    text-align: left;
+    text-shadow: 10px 10px 5px#000;
+    text-indent: 1em;
+}
+
+#second-paragraph{
+    font-size:3em;
+    font-weight:500;
+    font-style:italic;
+    text-transform:lowercase;
+    text-decoration: line-through;
+    text-align: center;
+    word-spacing: 30px;
+}
+
+#third-paragraph{
+    font-size:150%;
+    font-weight: 900;
+    font-style:oblique;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: right;
+    letter-spacing: 5px;
+}
